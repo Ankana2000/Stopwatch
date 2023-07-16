@@ -1,0 +1,52 @@
+body{
+  background-image: url("time.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 72px;
+  color: rebeccapurple;
+  margin-bottom: 20px;
+}
+.buttons {
+  margin-top: 40px;
+}
+#timer {
+  font-size: 30px;
+}
+
+button {
+  font-size: 30px;
+  padding: 10px 20px;
+  margin: 10px;
+  border:2px solid deepskyblue;
+  border-radius: 4px;
+  color: white;
+  background-color:rebeccapurple;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+button:active {
+  background-color: darkgrey;
+}
+ul {
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  color: black;
+  text-shadow: -1px -1px 0 #FFFFFF, 
+                    1px -1px 0 #FFFFFF, 
+                   -1px 1px 0 #FFFFFF, 
+                    1px 1px 0 #FFFFFF;
+}
+
+
